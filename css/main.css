@@ -181,7 +181,10 @@ footer span {
 	.section-two,
 	.section-three {
 		width: 33%;
-		height: 280px;
+		border-top: none;
+	}
+	.bottom-section {
+		border-top: 1px solid #eee;
 	}
 	.section-two {
 		border-left: 1px solid #eee;
@@ -191,33 +194,20 @@ footer span {
 
 @media all and (min-width: 1200px) {
 	header {
-		height: 110px;
 		border-bottom: 3px solid #77a466;
+		flex-direction: row;
+		align-items: none;
 		margin: 0 auto;
 	}
 	header h1 {
-		float: left;
-		margin: 0;
-		padding: 38px 0;
-	}
-	header nav {
-		float: right;
-		padding: 46px 0;
+		align-items: flex-start;
 	}
 	header nav ul li {
+		list-style-type: none;
 		display: inline;
-	}
-	.section-one,
-	.section-two,
-	.section-three {
-		width: 33%;
-		height: 280px;
+		align-items: flex-end;
 	}
 	.bottom-section{
 		border-bottom: 1px solid #eee;
-	}
-	.section-two {
-		border-left: 1px solid #eee;
-		border-right: 1px solid #eee;
 	}
 }
