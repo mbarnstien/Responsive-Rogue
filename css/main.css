@@ -57,6 +57,7 @@ header {
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
@@ -184,6 +185,7 @@ footer span {
 	}
 	.bottom-section {
 		border-top: 1px solid #eee;
+		align-items: flex-start;
 	}
 	.section-two {
 		border-left: 1px solid #eee;
@@ -198,7 +200,9 @@ footer span {
 		flex-direction: row;
 		margin: 0 auto;
 	}
-
+	header h1 {
+		border-bottom: none;
+	}
 	header nav ul li {
 		list-style-type: none;
 		display: inline;
